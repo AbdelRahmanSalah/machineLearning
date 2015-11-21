@@ -4,8 +4,8 @@ function J = costFunctionJ(X, y, theta)
 % y is the class labels
 
 
-m = size(X ,1)                % number of training examples
-predictions = X*theta;        % predictions of hypothesis on all m examples
+m = size(X ,1)                    % number of training examples
+predictions = X*theta;            % predictions of hypothesis on all m examples
 sqrErrors = (predictions-y).^2;   %squared errors
 
 
